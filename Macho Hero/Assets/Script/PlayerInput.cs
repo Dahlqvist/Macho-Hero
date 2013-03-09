@@ -8,7 +8,7 @@ public class PlayerInput : MonoBehaviour {
     public float speed;
     public float bulletForce = 4;
     public int fireRate = 5;
-    private LineRenderer aimRenderer;
+    public LineRenderer aimRenderer;
 
     private float bulletTimer;
 
@@ -31,12 +31,13 @@ public class PlayerInput : MonoBehaviour {
         {
             
             Debug.DrawRay(hit.point, hit.normal, Color.yellow);
-            aimDirection = hit.point + new Vector3(0, 2, 0) - transform.position;
+            aimDirection = hit.point - transform.position;
             Debug.DrawRay(transform.position, aimDirection, Color.blue);
 
             aimRenderer.enabled = true;
             aimRenderer.SetPosition(0, transform.position);
-            aimRenderer.SetPosition(1, hit.point + new Vector3(0, 2, 0));
+            //aimRenderer.SetPosition(1, hit.point);
+            aimRenderer.SetPosition(1, transform.position + aimDirection * 100);
 
             //if (Input.GetMouseButton(0) && bulletTimer <= 0)
             if (Input.GetMouseButton(0))

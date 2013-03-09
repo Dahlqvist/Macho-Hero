@@ -3,11 +3,11 @@ using System.Collections;
 
 public class KillOnHit : MonoBehaviour {
 
-  //  public Collider mCollision;
+    //public MeshCollider mCollision;
 
     private void Awake()
     {
-       // mCollision = GetComponent<
+        //mCollision = GetComponent<MeshCollider>();
     }
 
     private void OnCollisionEnter()

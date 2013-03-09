@@ -1,0 +1,10 @@
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\UnityEditor.dll
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\UnityEngine.dll
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\Mono.Cecil.dll
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\nunit.framework.dll
+C:\Macho-Hero\Macho Hero\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Macho-Hero\Macho Hero\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Macho-Hero\Macho Hero\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Macho-Hero\Macho Hero\obj\Debug\Assembly-CSharp-firstpass.pdb
