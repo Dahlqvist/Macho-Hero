@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\3D Platformer Tutorial\Scripts\Enemies\EnemyPoliceGuy.js">
+    <Files>
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" Line="15" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="1" Column="1" />
+      <File FileName="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPlayerAnimation.js" Line="22" Column="35" />
+      <File FileName="Assets\3D Platformer Tutorial\Blob-Shadow\ShadowProjection.shader" Line="1" Column="1" />
+      <File FileName="Temp\Compiled-ShadowProjection.shader" Line="1" Column="1" />
+      <File FileName="Assets\3D Platformer Tutorial\Scripts\Player\FalloutDeath.js" Line="1" Column="1" />
+      <File FileName="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonController.js" Line="98" Column="1" />
+      <File FileName="Assets\3D Platformer Tutorial\Scripts\Enemies\LaserTrap.js" Line="1" Column="1" />
+      <File FileName="Assets\3D Platformer Tutorial\Scripts\Enemies\EnemyPoliceGuy.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
