@@ -3,16 +3,32 @@ using System.Collections;
 
 public class KillOnHit : MonoBehaviour {
 
-  //  public Collider mCollision;
+    public GameObject unit;
+    
+    public string tag;
 
     private void Awake()
     {
-       // mCollision = GetComponent<
+        //mCollision = GetComponent<MeshCollider>();
+        //GameObject go = GameObject.FindGameObjectWithTag("Killerworks");
+        //killer = go.transform;
     }
 
-    private void OnCollisionEnter()
+    private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Hit");
-        Destroy(gameObject);
+        
+        if(collision.collider.tag.Equals(tag))
+        {
+            Debug.Log("Hit " + tag);
+           // Debug.Log("Hit Enemy");
+            if (unit != null)
+            {
+                GameObject SpawnLocation = (GameObject)Instantiate(unit, transform.position, Quaternion.identity);
+               // audio.Play();
+            }
+             Destroy(gameObject);
+        }
+        
     }
+
 }
