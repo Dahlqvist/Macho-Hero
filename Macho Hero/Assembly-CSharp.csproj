@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_NACL;WEBPLUG;ENABLE_IMAGEEFFECTS;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;UNITY_PEPPER;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE;UNITY_WEBPLAYER</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,10 +46,15 @@
   <ItemGroup>
      <Compile Include="Assets\Script\CameraCenterUpdater.cs" />
      <Compile Include="Assets\Script\CameraController.cs" />
+     <Compile Include="Assets\Script\GenerateUnit.cs" />
      <Compile Include="Assets\Script\KillOnHit.cs" />
      <Compile Include="Assets\Script\KillTimer.cs" />
      <Compile Include="Assets\Script\MouseAim.cs" />
      <Compile Include="Assets\Script\PlayerInput.cs" />
+     <Compile Include="Assets\Script\PlayerSpareParts.cs" />
+     <Compile Include="Assets\Script\ShipLife.cs" />
+     <Compile Include="Assets\Script\Tracker.cs" />
+     <Compile Include="Assets\Script\changeScen.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
