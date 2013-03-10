@@ -37,7 +37,7 @@ public class PlayerInput : MonoBehaviour {
             aimRenderer.enabled = true;
             aimRenderer.SetPosition(0, transform.position);
             //aimRenderer.SetPosition(1, hit.point);
-            aimRenderer.SetPosition(1, transform.position + aimDirection * 100);
+            aimRenderer.SetPosition(1, transform.position + aimDirection);
 
             //if (Input.GetMouseButton(0) && bulletTimer <= 0)
             if (Input.GetMouseButton(0))
