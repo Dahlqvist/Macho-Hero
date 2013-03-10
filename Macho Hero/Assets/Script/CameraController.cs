@@ -6,6 +6,11 @@ public class CameraController : MonoBehaviour {
     public Vector3 distance;
     public float speed;
 
+    private void Awake()
+    {
+        camera.depthTextureMode = DepthTextureMode.Depth;
+    }
+
     private void Start()
     {
         transform.position = target.position + distance;

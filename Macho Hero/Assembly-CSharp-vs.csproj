@@ -44,8 +44,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraCenterUpdater.cs" />
-     <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\Script\CameraCenterUpdater.cs" />
+     <Compile Include="Assets\Script\CameraController.cs" />
+     <Compile Include="Assets\Script\KillOnHit.cs" />
+     <Compile Include="Assets\Script\KillTimer.cs" />
+     <Compile Include="Assets\Script\MouseAim.cs" />
+     <Compile Include="Assets\Script\PlayerInput.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
